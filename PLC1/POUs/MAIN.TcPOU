@@ -8,7 +8,8 @@ VAR
 	XAxis : Axis_REF;
 	XAxisError : UINT;
 END_VAR
-]]></Declaration>
+
+THIS_IS_NOT_VALID_CODE]]></Declaration>
     <Implementation>
       <ST><![CDATA[counter := counter + 1;]]></ST>
     </Implementation>
