@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "K69H9KI3pv0=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Beckhoff\\TwinCAT Project1\\HMI\\HMI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Karan\\.nuget\\packages\\beckhoff.twincat.ads\\7.0.172\\beckhoff.twincat.ads.7.0.172.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\beckhoff.twincat.ads.abstractions\\7.0.172\\beckhoff.twincat.ads.abstractions.7.0.172.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\beckhoff.twincat.ads.configurationproviders\\7.0.172\\beckhoff.twincat.ads.configurationproviders.7.0.172.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\beckhoff.twincat.ads.server\\7.0.172\\beckhoff.twincat.ads.server.7.0.172.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.3\\microsoft.extensions.configuration.10.0.3.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.3\\microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.3\\microsoft.extensions.configuration.binder.10.0.3.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.3\\microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.3\\microsoft.extensions.logging.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.3\\microsoft.extensions.primitives.10.0.3.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\system.componentmodel.composition\\10.0.3\\system.componentmodel.composition.10.0.3.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\system.reactive\\6.1.0\\system.reactive.6.1.0.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\system.serviceprocess.servicecontroller\\10.0.3\\system.serviceprocess.servicecontroller.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

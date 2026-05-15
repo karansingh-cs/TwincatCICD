@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4026.18">
+  <POU Name="MAIN" Id="{27ac145a-80f1-43ad-b8a5-143d58e5f168}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	counter, nPumpSpeedRpm, nTankLevelPct : INT;
+	bCmdStart, bCmdStop, bAutoMode, bAlarmHighLevel : BOOL;
+	XAxis : Axis_REF;
+	XAxisError : UINT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[counter := counter + 1;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
