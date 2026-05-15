@@ -10,7 +10,6 @@ jobs:
     runs-on: self-hosted
 
     steps:
-
       - name: Checkout Repo
         uses: actions/checkout@v4
 
@@ -24,8 +23,8 @@ jobs:
         run: dir
 
       - name: Show Machine Name
-  	run: hostname
+        run: hostname
 
       - name: Build TwinCAT Solution
- 	run: |
-    	devenv.exe "TwinCAT Project1.sln" /Build Release
+        run: |
+          devenv.exe "TwinCAT Project1.sln" /Build Release
