@@ -7,14 +7,25 @@ on:
 
 jobs:
   validate:
-    runs-on: windows-latest
+    runs-on: self-hosted
 
     steps:
+
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Print Message
-        run: echo "TwinCAT CI pipeline started"
+      - name: Print Build Info
+        run: |
+          echo "Build Number: $env:GITHUB_RUN_NUMBER"
+          echo "Branch: $env:GITHUB_REF_NAME"
+          echo "Commit: $env:GITHUB_SHA"
 
-      - name: List Files
+      - name: List Repository Files
         run: dir
+
+      - name: Show Machine Name
+  	run: hostname
+
+      - name: Build TwinCAT Solution
+ 	run: |
+    	devenv.exe "TwinCAT Project1.sln" /Build Release
