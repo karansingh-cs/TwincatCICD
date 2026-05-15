@@ -1,0 +1,20 @@
+name: TwinCAT CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Print Message
+        run: echo "TwinCAT CI pipeline started"
+
+      - name: List Files
+        run: dir
